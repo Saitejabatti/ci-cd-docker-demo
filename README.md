@@ -46,16 +46,24 @@ docker run -d -p 3000:3000 <your-dockerhub-username>/ci-cd-docker-demo-app:lates
 4. Access the app at: http://localhost:3000
 
 GitHub Actions Workflow
-Workflow file: .github/workflows/ci-cd.yml
-Trigger: push or pull_request to main branch
-Steps:
-  Checkout code
-  Setup Node.js
-  Install dependencies
-  Run tests
-  Log in to Docker Hub
-  Build & push Docker image
 
+Workflow file: .github/workflows/ci-cd.yml
+
+Trigger: push or pull_request to main branch
+
+Steps:
+
+Checkout code
+
+Setup Node.js
+
+Install dependencies
+
+Run tests
+
+Log in to Docker Hub
+
+Build & push Docker image
 Docker Hub Image
 Image name: <your-dockerhub-username>/ci-cd-docker-demo-app:latest
 Pull the image:

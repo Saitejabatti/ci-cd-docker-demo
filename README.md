@@ -64,9 +64,13 @@ Run tests
 Log in to Docker Hub
 
 Build & push Docker image
+
 Docker Hub Image
+
 Image name: <your-dockerhub-username>/ci-cd-docker-demo-app:latest
+
 Pull the image:
+
 docker pull <your-dockerhub-username>/ci-cd-docker-demo-app:latest
 
 Conclusion

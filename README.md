@@ -73,6 +73,7 @@ Pull the image:
 
 docker pull <your-dockerhub-username>/ci-cd-docker-demo-app:latest
 
-Conclusion
+Conclusion:
+
 This project successfully implements a CI/CD pipeline with GitHub Actions and Docker.
 It ensures automated build, test, and deployment of a Node.js app, demonstrating modern DevOps practices.
